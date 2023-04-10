@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEP</title>
+  </head>
+  <body>
+
+    <div id="cadastroForm">
+      <form action="">
+        <hr/>
+        <h3 class="titulo">Cadastrar</h3>
+        <hr/>
+        <section class="input">
+          <label for="nome">Nome</label>
+          <input id="nome" type="text" name="nome">
+        </section>
+        
+        <section class="input">
+          <label for="lastName">Sobrenome</label>
+          <input id="lastName" type="text" name="lastName">
+        </section>
+        
+        <section class="input">
+          <label for="cep">Cep</label>
+          <input id="cep" type="text" name="cep" maxlength="9">
+        </section>
+        
+        <section class="input">
+          <label for="rua">Rua</label>
+          <input id="rua" type="text" name="street" readonly="true">
+        </section>
+        
+        <section class="input">
+          <label for="bairro">Bairro</label>
+          <input id="bairro" type="text" name="neighborhood" readonly="true">
+        </section>
+        
+        <section class="input">
+          <label for="cidade">Cidade</label>
+          <input id="cidade" type="text" name="city" readonly="true">
+        </section>
+        
+        <section class="input">
+          <label for="estado">Estado</label>
+          <input id="estado" type="text" name="state" readonly="true">
+        </section>
+          
+        <button>Cadastrar</button>
+      </form>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
